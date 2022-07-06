@@ -1,0 +1,33 @@
+:root {
+    --primary: #2b2d42;
+    --secondary: #8d99ae;
+    --tertiary: #edf2f4;
+    --light-red: #ef233c;
+    --red: #d90429;
+    --white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+    margin: 15px 20px;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to right, #03045e, #0b0fff);
+    color: var(--white);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 15px;
+}
+
+.app-title {
+    display: inline-block;
+    text-shadow: rgba(0, 0, 0, 0.5) 2px 2px;
+}
