@@ -7,27 +7,25 @@
     --white: #fff;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 body {
-    background-color: var(--white);
-    margin: 15px 20px;
-    padding: 0;
-    line-height: 1.5;
+    background-image: url(/assets/imgs/globe.jpeg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-header {
-    background-image: linear-gradient(to right, #03045e, #0b0fff);
+h1 {
+    font-size: 45px;
     color: var(--white);
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 15px;
+    text-shadow: #000000 0px 2px 2px;
 }
 
-.app-title {
-    display: inline-block;
-    text-shadow: rgba(0, 0, 0, 0.5) 2px 2px;
+.title-container {
+    margin: 50px;
+    background-color: rgba(102, 102, 102, 0.3);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 10px;
 }
