@@ -7,12 +7,15 @@
     --white: #fff;
 }
 
-body {
+html {
+    min-height: 100%;
     background-image: url(/assets/imgs/globe.jpeg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
@@ -29,4 +32,34 @@ h1 {
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 10px;
     backdrop-filter: blur(1px);
+}
+
+.search {
+    background-color: rgba(102, 102, 102, 0.3);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 10px;
+    backdrop-filter: blur(1px);
+    margin-left: 3.5%;
+}
+
+#footer {
+    background-color: rgba(40, 40, 40, 0.65);
+    box-shadow: rgba(0, 0, 0, 0.5) 8px 10px 0;
+    backdrop-filter: blur(1px);
+    color: var(--white);
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.footer-text {
+    margin: 35px auto;
+    font-size: large;
+}
+
+.github {
+    text-decoration: none;
+    color: white;
+    text-shadow: rgba(255, 255, 255, 0.5) 0 4px 5px;
 }
