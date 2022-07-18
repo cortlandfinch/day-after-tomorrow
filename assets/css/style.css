@@ -42,15 +42,29 @@ h1 {
     margin-left: 3.5%;
 }
 
-.button {
+#btn-search {
     background-color: var(--red);
-    color: white;
+    color: var(--tertiary);
     border: none;
     transition: all 0.3s ease 0s;
 }
-.button:hover {
+#btn-search:hover {
     background-color: var(--light-red);
-    color: var(--primary);
+    color: var(--tertiary);
+    box-shadow: rgba(214, 0, 0, 0.75) 0 5px 7px;
+    transform: translateY(-1px);
+}
+
+#btn-clear {
+    background-color: var(--primary);
+    color: var(--tertiary);
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+#btn-clear:hover {
+    background-color: var(--secondary);
+    color: var(--tertiary);
     box-shadow: rgba(97, 97, 97, 0.75) 0 5px 7px;
     transform: translateY(-1px);
 }
