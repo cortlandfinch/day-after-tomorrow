@@ -56,14 +56,36 @@
             <div class="column day">
                 <div class="todayWeather">
                     <div class="weatherCity">
-                        <h3 id="city"></h3>
-                        <h4 id="date"></h4>
+                        <h3 id="city" class="title is-3"></h3>
+                        <p id="date" class="subtitle is-4"></p>
                         <img id="weatherImg">
                     </div>
                     <p>Temperature: <span id="temp"></span> &deg;F</p>
                     <p>Wind Speed: <span id="wind"></span> mph</p>
                     <p>Humidity: <span id="humidity"></span> %</p>
                     <p>UV Index: <span id="uvIndex"></span></p>
+                </div>
+                <br>
+                <!-- 5 day forecast cards -->
+                <div class="fiveForecast">
+                    <p class="subtitle card-day-title is-4">Five Day Forecast:</p>
+                    <div class="columns">
+                        <div class="column has-text-centered">
+                            <p class="title card-day is-5">Day 1</p>
+                        </div>
+                        <div class="column has-text-centered">
+                            <p class="title card-day is-5">Day 2</p>
+                        </div>
+                        <div class="column has-text-centered">
+                            <p class="title card-day is-5">Day 3</p>
+                        </div>
+                        <div class="column has-text-centered">
+                            <p class="title card-day is-5">Day 4</p>
+                        </div>
+                        <div class="column has-text-centered">
+                            <p class="title card-day is-5">Day 5</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- current weather column -->

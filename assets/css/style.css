@@ -97,6 +97,23 @@ h1 {
 }
 /* current weather style end */
 
+/* 5 day forecast style start */
+.fiveForecast {
+    background-color: rgba(102, 102, 102, 0.75);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 10px;
+    padding: 5px 10px;
+}
+
+.card-day-title {
+    color: var(--tertiary);
+}
+
+.card-day {
+    color: var(--tertiary);
+}
+/* 5 day forecast style end */
+
 /* footer styling start */
 #footer {
     background-color: rgba(40, 40, 40, 0.65);
