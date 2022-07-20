@@ -54,37 +54,26 @@
             <!-- search column end -->
             <!-- current weather column -->
             <div class="column day">
-                <div class="current-day">
-                    <h3>Today: </h3>
-                </div>
-                <div class="columns">
-                    <div class="column">
-                        <div>
-                            <img id="current-img" class="image current-img is-128x128">
-                        </div>
-                    <div class="column">
-                        <div>
-                            <h3>Today's weather is: </h3>
-                            <h4 id="currentDay"></h4>
-                            <div id="currentWeather" class="container"></div>
-                        </div>
+                <div class="todayWeather">
+                    <div class="weatherCity">
+                        <h3 id="city"></h3>
+                        <h4 id="date"></h4>
+                        <img id="weatherImg">
                     </div>
-                    <div id="forecastFive" class="container">
-                        <h3 id="fiveName">5 Day Forecast</h3>
-                        <div id="cardFive" class="card">
-                            <div id="fivedayForecast" class="fivedayCards"></div>
-                        </div>
-                    </div>
-                    </div>
+                    <p>Temperature: <span id="temp"></span> &deg;F</p>
+                    <p>Wind Speed: <span id="wind"></span> mph</p>
+                    <p>Humidity: <span id="humidity"></span> %</p>
+                    <p>UV Index: <span id="uvIndex"></span></p>
                 </div>
             </div>
             <!-- current weather column -->
         </div> 
     </main>
     <!-- main section end -->
-    <!-- footer seciton start -->
+    <!-- JS Scripts -->
     <script src="./assets/js/script.js"></script>
 </body>
+ <!-- footer seciton start -->
 <footer id="footer">
     <div class="content footer-box has-text-centered">
         <p class="footer-text">
