@@ -20,8 +20,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* header style start */
 h1 {
     font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
     color: var(--white);
     text-shadow: #000000 0px 2px 2px;
 }
@@ -33,13 +36,20 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 10px;
     backdrop-filter: blur(1px);
 }
+/* header style end */
 
+/* search style start */
 .search {
     background-color: rgba(102, 102, 102, 0.3);
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 10px;
     backdrop-filter: blur(1px);
     margin-left: 3.5%;
+}
+
+#search {
+    background-color: var(--tertiary);
+    color: var(--primary);
 }
 
 #btn-search {
@@ -68,11 +78,31 @@ h1 {
     box-shadow: rgba(97, 97, 97, 0.75) 0 5px 7px;
     transform: translateY(-1px);
 }
+/* search style end */
 
+/* current weather style start */
+.day {
+    background-color: rgba(102, 102, 102, 0.3);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 10px;
+    margin-left: 2%;
+    margin-right: 3.5%;
+    color: var(--white);
+}
+
+.card {
+    margin-top: 5px;
+    background-color: rgba(102, 102, 102, 0.2);
+    backdrop-filter: blur(1px);
+}
+/* current weather style end */
+
+/* footer styling start */
 #footer {
     background-color: rgba(40, 40, 40, 0.65);
     box-shadow: rgba(0, 0, 0, 0.5) 8px 10px 0;
     backdrop-filter: blur(1px);
+    border-top: 1px solid var(--secondary);
     color: var(--white);
     position: absolute;
     bottom: 0;
@@ -83,10 +113,13 @@ h1 {
 .footer-text {
     margin: 35px auto;
     font-size: large;
+    font-weight: 200;
 }
 
 .github {
     text-decoration: none;
-    color: white;
+    color: var(--white);
     text-shadow: rgba(255, 255, 255, 0.5) 0 4px 5px;
 }
+
+/* footer styling end */

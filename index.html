@@ -30,7 +30,7 @@
     <!-- main section start -->
     <main>
         <div class="columns">
-            <!-- search field -->
+            <!-- search column -->
             <div class="column search is-3">
                 <div class="field is-grouped">
                     <p class="control is-expanded">
@@ -44,14 +44,41 @@
                     </p>
                 </div>
                 <!-- previous searches -->
-                <ul id="previous-search" class="previous-search">
+                <div>
+                    <h2>Search history:</h2>
+                    <ul id="previous-search" class="previous-search">
 
-                </ul>
+                    </ul>
+                </div>
             </div>
-            <!-- search field end -->
-            <div class="column">
-
+            <!-- search column end -->
+            <!-- current weather column -->
+            <div class="column day">
+                <div class="current-day">
+                    <h3>Today: </h3>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div>
+                            <img id="current-img" class="image current-img is-128x128">
+                        </div>
+                    <div class="column">
+                        <div>
+                            <h3>Today's weather is: </h3>
+                            <h4 id="currentDay"></h4>
+                            <div id="currentWeather" class="container"></div>
+                        </div>
+                    </div>
+                    <div id="forecastFive" class="container">
+                        <h3 id="fiveName">5 Day Forecast</h3>
+                        <div id="cardFive" class="card">
+                            <div id="fivedayForecast" class="fivedayCards"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
+            <!-- current weather column -->
         </div> 
     </main>
     <!-- main section end -->
