@@ -7,9 +7,13 @@
     --white: #fff;
 }
 
+*{
+    color: var(--tertiary);
+}
+
 html {
     min-height: 100%;
-    background-image: url(/assets/imgs/globe.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/assets/imgs/globe.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -98,15 +102,16 @@ h1 {
 /* current weather style end */
 
 /* 5 day forecast style start */
-.fiveForecast {
+.card-day-title {
+    color: var(--tertiary);
+}
+
+.card-day-container {
     background-color: rgba(102, 102, 102, 0.75);
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 10px;
-    padding: 5px 10px;
-}
-
-.card-day-title {
-    color: var(--tertiary);
+    backdrop-filter: blur(1px);
+    margin: 0 10px 10px;
 }
 
 .card-day {
