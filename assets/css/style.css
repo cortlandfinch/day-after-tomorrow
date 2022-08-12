@@ -103,18 +103,27 @@ h1 {
 
 /* 5 day forecast style start */
 .card-day-title {
+    margin-top: 25px;
     color: var(--tertiary);
 }
 
 .card-day-container {
-    background-color: rgba(102, 102, 102, 0.75);
+    background-color: rgba(84, 84, 84, 0.75);
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 10px;
     backdrop-filter: blur(1px);
-    margin: 0 10px 10px;
+    margin: 0 10px 40px 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.card-day-container:hover {
+    background-color: rgba(20, 20, 20, 0.75);
+    box-shadow: rgba(0, 0, 0, 0.75) 0 10px 15px;
+    transform: translateY(-3px) scale(1.05); 
 }
 
 .card-day {
+    font-weight: 200;
     color: var(--tertiary);
 }
 /* 5 day forecast style end */
