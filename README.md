@@ -5,5 +5,7 @@ This weather dashboard allows users to search for any city of their choosing. On
 
 ## Link to the Weather Dashboard
 Link to website: 
+https://github.com/cortlandfinch/day-after-tomorrow
 
 **screen shot of dashboard
+![image of weather dashboard](./assets/imgs/weather-dashboard.png)

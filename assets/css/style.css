@@ -56,13 +56,13 @@ h1 {
     color: var(--primary);
 }
 
-#btn-search {
+#search-btn {
     background-color: var(--red);
     color: var(--tertiary);
     border: none;
     transition: all 0.3s ease 0s;
 }
-#btn-search:hover {
+#search-btn:hover {
     background-color: var(--light-red);
     color: var(--tertiary);
     box-shadow: rgba(214, 0, 0, 0.75) 0 5px 7px;
